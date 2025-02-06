@@ -1,0 +1,39 @@
+[project]
+name = "bta-2024-vote-analysis"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "inscripoem", email = "changxuben@gmail.com" }
+]
+dependencies = [
+    "pydantic>=2.10.6",
+    "pandas>=2.2.3",
+    "pandas-stubs>=2.2.3.241126",
+    "numpy>=2.2.2",
+    "rich>=13.9.4",
+    "openpyxl>=3.1.5",
+    "pypinyin>=0.53.0",
+    "numpydantic>=1.6.7",
+    "msgpack>=1.1.0",
+    "msgpack-types>=0.5.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[project.scripts]
+"bta-2024-vote-analysis" = "bta_2024_vote_analysis:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bta_2024_vote_analysis"]
+
