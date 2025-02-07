@@ -6,14 +6,12 @@ authors = [
     { name = "inscripoem", email = "changxuben@gmail.com" }
 ]
 dependencies = [
-    "pydantic>=2.10.6",
     "pandas>=2.2.3",
     "pandas-stubs>=2.2.3.241126",
     "numpy>=2.2.2",
     "rich>=13.9.4",
     "openpyxl>=3.1.5",
     "pypinyin>=0.53.0",
-    "numpydantic>=1.6.7",
     "msgpack>=1.1.0",
     "msgpack-types>=0.5.0",
 ]
