@@ -1,7 +1,7 @@
 [project]
 name = "bta-2024-vote-analysis"
 version = "0.1.0"
-description = "Add your description here"
+description = "Vote analysis for BTA 2024"
 authors = [
     { name = "inscripoem", email = "changxuben@gmail.com" }
 ]
